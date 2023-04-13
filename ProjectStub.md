@@ -1,1 +1,1 @@
-![SPA architecture](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.scnsoft.com%2Fblog%2Fweb-application-architecture&psig=AOvVaw3Ogvr1VLfGDwdeGqETOnX6&ust=1681478585026000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOCgh6b6pv4CFQAAAAAdAAAAABA1)
+![SPA architecture](https://www.scnsoft.com/blog-pictures/web-apps/web-application-architecture-02.png)
