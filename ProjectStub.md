@@ -1,1 +1,0 @@
-![SPA architecture](https://www.scnsoft.com/blog-pictures/web-apps/web-application-architecture-02.png)
