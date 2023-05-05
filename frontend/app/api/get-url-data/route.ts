@@ -11,7 +11,7 @@ export async function GET(request: Request) {
   try {
     const res = await octokit.request(`GET ${url?.split("{")[0]}`);
     const data = res.data;
-    return NextResponse.json(data as ProfileTypes, {
+    return NextResponse.json(data, {
       status: 200,
     });
   } catch {

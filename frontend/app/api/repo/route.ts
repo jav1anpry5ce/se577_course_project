@@ -13,7 +13,7 @@ export async function GET(request: Request) {
       `GET https://api.github.com/repos/jav1anpry5ce/${repo}`
     );
     const data = res.data;
-    return NextResponse.json(data as DetailedRepo[], {
+    return NextResponse.json(data as DetailedRepo, {
       status: 200,
     });
   } catch {
