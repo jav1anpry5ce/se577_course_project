@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Repo 1",
+    "language": "javascript",
+    "stars": 0,
+    "type": "Private",
+    "lastUpdated": "2019-01-01T00:00:00Z",
+    "url": "repo-1"
+  },
+  {
+    "id": 2,
+    "name": "Repo 2",
+    "language": "java",
+    "stars": 5,
+    "type": "Public",
+    "lastUpdated": "2019-01-01T00:00:00Z",
+    "url": "repo-2"
+  },
+  {
+    "id": 3,
+    "name": "Repo 3",
+    "language": "python",
+    "stars": 15,
+    "type": "Private",
+    "lastUpdated": "2019-01-01T00:00:00Z",
+    "url": "repo-3"
+  },
+  {
+    "id": 4,
+    "name": "Repo 4",
+    "language": "Go",
+    "stars": 6,
+    "type": "Public",
+    "lastUpdated": "2019-01-01T00:00:00Z",
+    "url": "repo-4"
+  },
+  {
+    "id": 5,
+    "name": "Repo 5",
+    "language": "html",
+    "stars": 6,
+    "type": "Public",
+    "lastUpdated": "2019-01-01T00:00:00Z",
+    "url": "repo-5"
+  }
+]
