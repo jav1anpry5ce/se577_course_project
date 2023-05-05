@@ -23,13 +23,14 @@ pnpm dev
 ## Getting Data From Github API
 
 In order for the api routes to work you need to provide a Github API Key.
+
 Create a .env.local file and add the following:
 
 ```bash
 NEXT_PUBLIC_GITHUB_API_KEY=YOURAPIKEYGOESHERE
 ```
 
-Feel free to configure your api key how you like. (Weather you only want access to public repository, selected repository or all repository)
+Feel free to configure your api key how you like. (Weather you only want access to public repositories, selected repositories or all repositories)
 
 List of all api routes
 - [http://localhost:3000/api/profile](http://localhost:3000/api/profile) returns the profile of the user.
