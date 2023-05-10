@@ -1,4 +1,3 @@
-import { DetailedRepo, ProfileTypes } from "@/utils/projectTypes";
 import { NextResponse } from "next/server";
 import { Octokit } from "octokit";
 
@@ -9,7 +8,7 @@ export async function GET() {
   try {
     const res = await octokit.request("GET /user");
     const data = res.data;
-    return NextResponse.json(data as ProfileTypes, {
+    return NextResponse.json(data, {
       status: 200,
     });
   } catch {
