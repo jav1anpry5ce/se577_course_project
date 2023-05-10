@@ -1,0 +1,1 @@
+![SPA Architecture](https://user-images.githubusercontent.com/1474579/101680131-3f4f4b80-3a2e-11eb-9e03-78e325ebdea4.png)
