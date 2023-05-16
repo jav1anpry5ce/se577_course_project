@@ -9,7 +9,7 @@ export async function GET() {
   try {
     const res = await octokit.request("GET /user/repos");
     const data = res.data;
-    return NextResponse.json(data as DetailedRepo[], {
+    return NextResponse.json(data, {
       status: 200,
     });
   } catch {

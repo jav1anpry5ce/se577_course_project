@@ -27,7 +27,7 @@ In order for the api routes to work you need to provide a Github API Key.
 Create a .env.local file and add the following:
 
 ```bash
-NEXT_PUBLIC_GITHUB_API_KEY=YOURAPIKEYGOESHERE
+NEXT_PUBLIC_GITHUB_API_KEY=YOUR_API_KEY_GOES_HERE
 ```
 
 Feel free to configure your api key how you like. (Weather you only want access to public repositories, selected repositories or all repositories)
