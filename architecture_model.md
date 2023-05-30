@@ -1,0 +1,1 @@
+![Architectural-image](./architecture_diagram.drawio.svg)
