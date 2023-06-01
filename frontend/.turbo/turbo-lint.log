@@ -1,0 +1,10 @@
+
+> frontend@0.1.0 lint
+> next lint
+
+info  - Loaded env from C:\Users\Javaughn\Desktop\Drexel\Spring 2023\SE-577 Software Architecture\Course_Project\frontend\.env.local
+warn  - You have enabled experimental feature (appDir) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+info  - Thank you for testing `appDir` please leave your feedback at https://nextjs.link/app-feedback
+✔ No ESLint warnings or errors
