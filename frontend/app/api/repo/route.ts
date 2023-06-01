@@ -1,4 +1,3 @@
-import { DetailedRepo } from "@/utils/projectTypes";
 import { NextResponse } from "next/server";
 import { Octokit } from "octokit";
 

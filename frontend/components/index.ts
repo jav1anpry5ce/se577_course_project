@@ -1,3 +1,12 @@
 export { default as Header } from "./Header";
 export { default as Profile } from "./Profile";
 export { default as TopRepos } from "./TopRepos";
+export { default as Contributions } from "./Contributions";
+export { default as RepoDiv } from "./RepoDiv";
+export { default as Languages } from "./Languages";
+export { default as Contents } from "./Contents";
+export { default as LoadingCard } from "./LoadingCard";
+export { default as LoadingContent } from "./LoadingContent";
+export { default as LoadingProfile } from "./LoadingProfile";
+export { default as LoadingRepo } from "./LoadingRepo";
+export { default as RepoProfile } from "./RepoProfile";

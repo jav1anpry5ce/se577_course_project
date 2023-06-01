@@ -1,4 +1,8 @@
 import { Profile, TopRepos } from "@/components";
+import { getProfile, getRepos } from "@/utils/dataFetchers";
+import { notFound } from "next/navigation";
+
+export const revalidate = 60;
 
 export const metadata = {
   title: "Home",
@@ -6,13 +10,18 @@ export const metadata = {
   keywords: "nextjs, react, typescript",
 };
 
-export default function Home() {
+export default async function Home() {
+  const profileData = getProfile();
+  const reposData = getRepos();
+
+  const [profile, repos] = await Promise.all([profileData, reposData]);
+  if (!profile || !repos) notFound();
   return (
-    <main className="w-full max-w-7xl flex-1 self-center p-2">
+    <div className="flex-1 p-2">
       <div className="flex items-start gap-8 pt-4">
-        <Profile />
-        <TopRepos />
+        <Profile profile={profile} />
+        <TopRepos repos={repos} />
       </div>
-    </main>
+    </div>
   );
 }
