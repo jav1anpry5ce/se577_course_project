@@ -117,3 +117,11 @@ CMD ["node", "server.js"]
 docker build --build-arg GITHUB_API_KEY=YOUR_API_KEY --build-arg PROD_URL=YOUR_PROD_URL_GOES_HERE . --load
 ```
 3. That's it! Deploy your docker container!
+
+## Architecture
+
+### High Level
+[image](./high_level_diagram.drawio.svg)
+
+### Low Level
+[image](./architecture_diagram.drawio.svg)
