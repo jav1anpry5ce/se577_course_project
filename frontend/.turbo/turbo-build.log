@@ -1,0 +1,114 @@
+
+> frontend@0.1.0 build
+> next build
+
+- info Loaded env from C:\Users\Javaughn\Desktop\Drexel\Spring 2023\SE-577 Software Architecture\Course_Project\frontend\.env.local
+- info Creating an optimized production build...
+- warn Compiled with warnings
+
+./node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in 'C:\Users\Javaughn\Desktop\Drexel\Spring 2023\SE-577 Software Architecture\Course_Project\frontend\node_modules\node-fetch\lib'
+
+Import trace for requested module:
+./node_modules/node-fetch/lib/index.js
+./node_modules/@octokit/request/dist-node/index.js
+./node_modules/@octokit/core/dist-node/index.js
+./node_modules/octokit/dist-node/index.js
+./app/api/get-url-data/route.ts
+
+- info Linting and checking validity of types...
+- error ESLint: Failed to load config "next/babel" to extend from. Referenced from: C:\Users\Javaughn\Desktop\Drexel\Spring 2023\SE-577 Software Architecture\Course_Project\frontend\.eslintrc.json
+- info Collecting page data...
+- info Generating static pages (0/10)
+- info Generating static pages (2/10)
+- info Generating static pages (4/10)
+(node:1292) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11118:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 0)
+    at async wrappedRender (C:\Users\Javaughn\Desktop\Drexel\Spring 2023\SE-577 Software Architecture\Course_Project\frontend\node_modules\next\dist\server\app-render\app-render.js:1001:13)
+    at async C:\Users\Javaughn\Desktop\Drexel\Spring 2023\SE-577 Software Architecture\Course_Project\frontend\node_modules\next\dist\export\worker.js:367:40
+    at async Span.traceAsyncFn (C:\Users\Javaughn\Desktop\Drexel\Spring 2023\SE-577 Software Architecture\Course_Project\frontend\node_modules\next\dist\trace\trace.js:103:20) {
+  cause: Error: connect ECONNREFUSED ::1:3000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+      at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+    errno: -4078,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 3000
+  }
+}
+TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11118:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  cause: Error: connect ECONNREFUSED ::1:3000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+      at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+    errno: -4078,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 3000
+  }
+}
+- info Generating static pages (7/10)
+(node:3868) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11118:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  cause: Error: connect ECONNREFUSED ::1:3000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+      at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+    errno: -4078,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 3000
+  }
+}
+TypeError: fetch failed
+    at Object.fetch (node:internal/deps/undici/undici:11118:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  cause: Error: connect ECONNREFUSED ::1:3000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+      at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+    errno: -4078,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 3000
+  }
+}
+- info Generating static pages (10/10)
+- info Finalizing page optimization...
+
+Route (app)                                Size     First Load JS
+┌ ○ /                                      2.22 kB          90 kB
+├ ○ /_not-found                            0 B                0 B
+├ λ /api/get-url-data                      0 B                0 B
+├ ○ /api/profile                           0 B                0 B
+├ λ /api/repo                              0 B                0 B
+├ ○ /api/repos                             0 B                0 B
+├ ○ /favicon.ico                           0 B                0 B
+├ ○ /repositories                          184 B          86.8 kB
+└ λ /repositories/[slug]                   2.41 kB        90.2 kB
++ First Load JS shared by all              76.9 kB
+  ├ chunks/139-4a40e90ca7dde89d.js         24.4 kB
+  ├ chunks/2443530c-7e9c804de6ba2011.js    50.5 kB
+  ├ chunks/main-app-8877fcbfea45a797.js    213 B
+  └ chunks/webpack-da729cbf779cc515.js     1.68 kB
+
+Route (pages)                              Size     First Load JS
+─ ○ /404                                   178 B            86 kB
++ First Load JS shared by all              85.8 kB
+  ├ chunks/main-1ec2690dd845ebee.js        83.9 kB
+  ├ chunks/pages/_app-c544d6df833bfd4a.js  192 B
+  └ chunks/webpack-da729cbf779cc515.js     1.68 kB
+
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
