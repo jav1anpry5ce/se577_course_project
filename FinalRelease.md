@@ -121,7 +121,7 @@ docker build --build-arg GITHUB_API_KEY=YOUR_API_KEY --build-arg PROD_URL=YOUR_P
 ## Architecture
 
 ### High Level
-[image](./high_level_diagram.drawio.svg)
+![image](./high_level_diagram.drawio.svg)
 
 ### Low Level
-[image](./architecture_diagram.drawio.svg)
+![image](./architecture_diagram.drawio.svg)
