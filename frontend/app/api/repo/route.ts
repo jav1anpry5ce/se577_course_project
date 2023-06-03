@@ -8,9 +8,8 @@ export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const repo = searchParams.get("repo");
   try {
-    const res = await octokit.request(
-      `GET https://api.github.com/repos/jav1anpry5ce/${repo}`
-    );
+    const user = await octokit.request("GET /user");
+    const res = await octokit.request(`GET /repos/${user.data.login}/${repo}`);
     const data = res.data;
     return NextResponse.json(data, {
       status: 200,
